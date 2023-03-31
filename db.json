@@ -2,10 +2,10 @@
 	"workouts": [
 	 {
 		"id": 1,
-		"name": "",
-		"muscle": "",
-		"image": "",
-		"description": ""
+		"name": "Dumbbell Lateral Raise",
+		"muscle": "Shoulders",
+		"image": "https://static.strengthlevel.com/images/illustrations/dumbbell-lateral-raise-2-1000x1000.jpg",
+		"description": "Begin with 2 dumbbells at your side. Raise the dumbbells sideways away from your body, until they reach shoulder level. Lower the dumbbells back to the starting position."
 	 },
 
      {
@@ -154,6 +154,38 @@
 
      {
         "id": 20,
+        "name": "",
+        "muscle": "",
+        "image": "",
+        "description": ""
+     },
+
+     {
+        "id": 21,
+        "name": "",
+        "muscle": "",
+        "image": "",
+        "description": ""
+     },
+
+     {
+        "id": 22,
+        "name": "",
+        "muscle": "",
+        "image": "",
+        "description": ""
+     },
+
+     {
+        "id": 23,
+        "name": "",
+        "muscle": "",
+        "image": "",
+        "description": ""
+     },
+
+     {
+        "id": 24,
         "name": "",
         "muscle": "",
         "image": "",
