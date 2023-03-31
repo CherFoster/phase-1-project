@@ -1,1 +1,1 @@
-# phase-1-project
+Beginner's Workout App
