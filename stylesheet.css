@@ -1,8 +1,29 @@
+body {
+    background-color: #E4F3FE;
+}
+
 h1 {
-    color: gray;
+    color: black;
+    text-align: center;
+    
+}
+
+h3#opening {
+    text-align: center;
+}
+
+h4#beginning {
+    text-align: center;
 }
 
 span {
-    display: block;
+    float: left;
+    padding: 25px;
+}
 
+img {
+    width: 12%;
+    height: 12%;
+    float: left;
+    padding: 5px;
 }
