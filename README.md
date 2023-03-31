@@ -2,7 +2,7 @@
 Beginner's Workout App created by Cherise Foster for Flatiron School's Phase 1 Project
 
 <h2>Description:</h2>
-If you are new to the gym, take away some of the uneasiness of not knowing what workouts to do with the Beginner's Workout App! It allows you to search workouts that are specific to a certain muscle group. 
+If you are new to the gym, take away some of the uneasiness of not knowing what workouts to do with the Beginner's Workout App!
 
 <h3>You can:</h3>
 <ul>
