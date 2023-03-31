@@ -15,4 +15,5 @@ The Beginner's Workout App connects to a full fake REST API using a db.json file
 <code>npm install -g json-server</code>
 To start the JSON server, type in:
 <code>json.server --watch db.json
+<p>You can view the db.json data by opening <code>http://localhost:3000/workouts</code> in your browser, which is located under "Resources" in the terminal.</p>
 
