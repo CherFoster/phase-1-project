@@ -47,7 +47,7 @@ function renderCards() {
 
     //   workoutCard.addEventListener('click', getWorkoutId)
     
-    //   Saves workout when save button is clicked
+    //   Saves workout when like button is clicked
     btn.addEventListener('click', (event) => {
         if (event.target.classList[0] === 'save-btn') {
             const activated = event.target.classList.contains('activated-heart');
@@ -69,7 +69,7 @@ function renderCards() {
 //     .then(createCard)
 // }
         
-
+// Clears all of the cards once a search is submitted
 form.addEventListener('submit', (event) => {
     event.preventDefault()
 
