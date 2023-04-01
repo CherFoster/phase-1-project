@@ -1,11 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const form = document.querySelector('form')
-    const searchBar = document.querySelector('#searchbar')
-    let cardCollection = document.querySelector('#database')
-    const footer = document.querySelector('footer')
-    const EMPTY_HEART = '♡';
-    const FULL_HEART = '♥';
+// Grabs HTML elements
+const form = document.querySelector('form')
+const searchBar = document.querySelector('#searchbar')
+let cardCollection = document.querySelector('#database')
+const footer = document.querySelector('footer')
+const submit = document.querySelector('.submit')
+const EMPTY_HEART = '♡';
+const FULL_HEART = '♥';
 
     
 
@@ -41,13 +43,11 @@ function renderCards() {
       workoutCard.append(h4, img, btn)
       cardCollection.append(workoutCard)
     
-      
+    //   Event listener that creates a shadow when mouse hovers over each card
       workoutCard.addEventListener("mouseover", () => workoutCard.setAttribute("style", "box-shadow: 30px 30px 10px #545E63"));
       workoutCard.addEventListener("mouseout", () => workoutCard.setAttribute("style", "box-shadow: 0px 0px"));
-
-    //   workoutCard.addEventListener('click', getWorkoutId)
     
-    //   Saves workout when like button is clicked
+    //   Fills in heart emoji when clicked
     btn.addEventListener('click', (event) => {
         if (event.target.classList[0] === 'save-btn') {
             const activated = event.target.classList.contains('activated-heart');
@@ -63,35 +63,16 @@ function renderCards() {
     
 };
 
-// function getWorkoutId(){
-//     fetch(`http://localhost:3000/workouts/${workouts.id}`)
-//     .then(resp => resp.json())
-//     .then(createCard)
-// }
-        
 // Clears all of the cards once a search is submitted
+submit.addEventListener('click', () => {
+    console.log(submit)
+})
+
 form.addEventListener('submit', (event) => {
     event.preventDefault()
-
-document.querySelectorAll('.card').forEach(event => event.remove())
-
+    document.querySelectorAll('.card').forEach(event => event.remove())
 
   });
-
-//   Returns workouts for selected muscle
-// const selectedMuscle = searchBar.value
-// function muscleSelection(){
-//     fetch('http://localhost:3000/workouts')
-//     .then(resp => resp.json())
-//     .then(workouts => {
-//         workouts.forEach(workout => {
-//             if(workout.muscle === selectedMuscle){
-//                 createCard(workout)
-//             }
-//         })
-//     })
-//     }
-//     muscleSelection();
 
   
 // Creates reset button
@@ -108,7 +89,7 @@ resetBtn.addEventListener('click', (event) => {
 };
 resetButton();
 
-// Creates a Like button
+// Creates a Liked button
 function likesButton(){
     const likesBtn = document.createElement('button')
     likesBtn.classList.add('liked-workouts')
