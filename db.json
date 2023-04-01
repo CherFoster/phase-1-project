@@ -1,196 +1,172 @@
 {
-	"workouts": [
-	 {
-		"id": 1,
-		"name": "Dumbbell Lateral Raise",
-		"muscle": "Shoulders",
-		"image": "https://static.strengthlevel.com/images/illustrations/dumbbell-lateral-raise-2-1000x1000.jpg",
-		"description": "Begin with 2 dumbbells at your side. Raise the dumbbells sideways away from your body, until they reach shoulder level. Lower the dumbbells back to the starting position."
-	 },
-
-     {
-        "id": 2,
-        "name": "Shoulder Press",
-        "muscle": "Shoulders",
-        "image": "https://static.strengthlevel.com/images/illustrations/seated-dumbbell-shoulder-press-2-1000x1000.jpg",
-        "description": "Sitting or standing, start with two dumbbells at shoulder length. Press the dumbbells up with your shoulders until elbows are straight. Lower the dumbbells back down to shoulder length."
-     },
-
-     {
-        "id": 3,
-        "name": "Dumbbell Shrug",
-        "muscle": "Shoulders",
-        "image": "https://static.strengthlevel.com/images/illustrations/dumbbell-shrug-2-1000x1000.jpg",
-        "description": "Start with 2 dumbbells resting by your sides. Pinch your shoulders up towards your head while keeping arms at sides. Lower shoulders back down to resting starting position."
-     },
-
-     {
-        "id": 4,
-        "name": "Tricep Pushdown",
-        "muscle": "Triceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/tricep-pushdown-2-1000x1000.jpg",
-        "description": "At a cable machine, stand facing the machine with the cable above your head. Use the handles to push down with your triceps until arms are straight. Return the handle back to the starting position and repeat."
-     },
-
-     {
-        "id": 5,
-        "name": "French Press",
-        "muscle": "Triceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/tricep-extension-2-1000x1000.jpg",
-        "description": "Lay on a flat bench or standing, using two dumbbells or a barbell, start with arms straight out in the air above your head. Lower the weights towards your head, bending arms only at the elbow. Repeat motion."
-     },
-
-     {
-        "id": 6,
-        "name": "Tricep Dips",
-        "muscle": "Triceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/dips-2-1000x1000.jpg",
-        "description": "Using a dipping platform, start with both arms extended fully in an upright position, holding yourself up with feet off the ground. Lower yourself down, bending at the elbows, and push yourself back up."
-     },
-
-     {
-        "id": 7,
-        "name": "Bicep Curl",
-        "muscle": "Biceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/barbell-curl-2-1000x1000.jpg",
-        "description": "Using dumbbells or a barbell, start in standing position with weights at hip length. Grip the weights with an underhand grip, and curl the weights upwards toward the chest. Lower back to starting position and repeat."
-     },
-
-     {
-        "id": 8,
-        "name": "Hammer Curl",
-        "muscle": "Biceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/hammer-curl-1000x1000.jpg",
-        "description": "Start with two dumbbells at hip length. Grip the dumbbells so the palms of the hand are facing towards the body. Raise one arm at a time upwards toward the shoulders, bending at the elbow. When one arm goes back to starting position, the opposite arm should be curling upwards."
-     },
-
-     {
-        "id": 9,
-        "name": "Machine Bicep Curl",
-        "muscle": "Biceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/machine-bicep-curl-1000x1000.jpg",
-        "description": "Sit on the machine facing the handles and rest elbows on the padding. Grip the handles with an underhand grip, and curl the handles towards the face. Repeat."
-     },
-
-     {
-        "id": 10,
-        "name": "Lat Pulldown",
-        "muscle": "Back",
-        "image": "https://static.strengthlevel.com/images/illustrations/lat-pulldown-2-1000x1000.jpg",
-        "description": "Grab the bar with both hands wider than shoulder-width. With arms extended, pull the bar down until the bar reaches just below the chin. Bring the bar back up to start and repeat."
-     },
-
-     {
-        "id": 11,
-        "name": "Machine Back Extension",
-        "muscle": "Back",
-        "image": "https://static.strengthlevel.com/images/illustrations/machine-back-extension-1000x1000.jpg",
-        "description": "Sit on the machine with ankles behind the lower bar for support. Cross arms at chest and lean back to about a 45 degree angle. Slowly bring back to normal sitting position and repeat."
-     },
-
-     {
-        "id": 12,
-        "name": "Seated Cable Row",
-        "muscle": "Back",
-        "image": "https://static.strengthlevel.com/images/illustrations/seated-cable-row-1000x1000.jpg",
-        "description": "Sit on machine and put feet up on the footstools. Grab the handles and push back until knees are almost straight. Bring arms foward while keeping back straight, and pull arms back towards the chest."
-     },
-
-     {
-        "id": 13,
-        "name": "Ab Crunches",
-        "muscle": "Abdominals",
-        "image": "https://static.strengthlevel.com/images/illustrations/crunches-1000x1000.jpg",
-        "description": "Lie on the floor with knees facing the ceiling and feet flat on the floor. Put both hands behind the head, while keeping knees and feet in place, crunch forward bringing the head towards the knees. Lie back to starting position and repeat."
-     },
-
-     {
-        "id": 14,
-        "name": "Ab Rollout Wheel",
-        "muscle": "Abdominals",
-        "image": "https://static.strengthlevel.com/images/illustrations/ab-wheel-rollout-1000x1000.jpg",
-        "description": "Using a rollout wheel, start on knees with hands on the sides of the wheel. Slowly roll forward as far as possible while keeping back straight, and roll back to starting position."
-     },
-
-     {
-        "id": 15,
-        "name": "Hanging Leg Raise",
-        "muscle": "Abdominals",
-        "image": "https://static.strengthlevel.com/images/illustrations/hanging-leg-raise-1000x1000.jpg",
-        "description": "Hoist self up to a high bar and make sure feet are off the floor. With knees straight or bent, bring legs up to chest without rocking back and forth."
-     },
-
-     {
-        "id": 16,
-        "name": "Hip Thrust",
-        "muscle": "Glutes",
-        "image": "https://static.strengthlevel.com/images/illustrations/hip-thrust-2-1000x1000.jpg",
-        "description": "Using a barbell, wrap a cushion around the middle to protect the hips. Lie upper back on the side of a bench with the barbell directly over the hips. Keeping the chin tucked, push hips upwards through the glutes until hips and shoulders are parallel. Lower to start and repeat."
-     },
-
-     {
-     "id": 17,
-        "name": "Cable Kickback",
-        "muscle": "Glutes",
-        "image": "https://static.strengthlevel.com/images/illustrations/cable-kickback-1000x1000.jpg",
-        "description": "Using a cable machine, lower the cable to the lowest setting closest to the floor. Wrap an ankle strap around the ankle and attach to the cable hook. Holding on to the machine, kick foot straight back and slightly out while keeping back straight. Do not over-extend the leg. Return back to starting position."
-     },
-
-     {
-        "id": 18,
-        "name": "Reverse Lunge",
-        "muscle": "Glutes",
-        "image": "https://static.strengthlevel.com/images/illustrations/reverse-lunge-1000x1000.jpg",
-        "description": "Starting in standing position, lean upper body slightly forward, and bring one leg back while lowering into a lunge. Stop the lunge before the knee touches the ground. Lean into the leg in the front to bring back leg to standing position. Switch legs and repeat."
-     },
-
-     {
-        "id": 19,
-        "name": "Leg Extension",
-        "muscle": "Quadriceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/leg-extension-2-1000x1000.jpg",
-        "description": "Sitting on the leg extension machine, place feet under the footrest. Hold on to the handles on the side of the seat, and push the legs forward until both legs are straight."
-     },
-
-     {
-        "id": 20,
-        "name": "Leg Press",
-        "muscle": "Quadriceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/sled-leg-press-2-1000x1000.jpg",
-        "description": "Sit on the machine and place feet about shoulder or hip length apart. Push the legs forward and release the handle, and lower the sled until the knees are at a 90 degree angle. Push the sled back up while making sure knees are slightly bent at the top of the rep, and repeat. "
-     },
-
-     {
-        "id": 21,
-        "name": "Squat",
-        "muscle": "Quadriceps",
-        "image": "https://static.strengthlevel.com/images/illustrations/squat-2-1000x1000.jpg",
-        "description": "You can use a barbell or dumbbells for this exercise. With weights on shoulders or in hands, lower yourself until you are sitting at a 90 degree angle. Keep  back straight and look forward. Raise yourself back up to standing and repeat."
-     },
-
-     {
-        "id": 22,
-        "name": "Seated Leg Curl",
-        "muscle": "Hamstrings",
-        "image": "https://static.strengthlevel.com/images/illustrations/seated-leg-curl-2-1000x1000.jpg",
-        "description": "Sit on machine and lay the backs on the ankles on the footrest. Grip the handles, and pull both of the legs down towards the machine until the legs are at a right angle. Return legs slowly back to start and repeat."
-     },
-
-     {
-        "id": 23,
-        "name": "Romanian Deadlift",
-        "muscle": "Hamstrings",
-        "image": "https://static.strengthlevel.com/images/illustrations/dumbbell-romanian-deadlift-1000x1000.jpg",
-        "description": "Using dumbbells or a barbell, start at a standing position with weights at the hips. Keeping the back and head straight, slowly lower the hips backwards while keeping knees slightly bent. Do not over extend. Once the hips cannot lean back any farther, bring the hips forward to standing position. Lean back into a wall to keep from over extending. "
-     },
-
-     {
-        "id": 24,
-        "name": "Glute Ham Raise",
-        "muscle": "Hamstrings",
-        "image": "https://static.strengthlevel.com/images/illustrations/glute-ham-raise-1000x1000.jpg",
-        "description": "Place feet in between footrests and knees bent. Cross arms at the chest and slowly lean forward. Use hamstrings to rasie back up to starting position."
-     }
-
- ]
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Lateral Raise",
+      "muscle": "Shoulders",
+      "image": "https://static.strengthlevel.com/images/illustrations/dumbbell-lateral-raise-2-1000x1000.jpg",
+      "description": "Begin with 2 dumbbells at your side. Raise the dumbbells sideways away from your body, until they reach shoulder level. Lower the dumbbells back to the starting position."
+    },
+    {
+      "id": 2,
+      "name": "Shoulder Press",
+      "muscle": "Shoulders",
+      "image": "https://static.strengthlevel.com/images/illustrations/seated-dumbbell-shoulder-press-2-1000x1000.jpg",
+      "description": "Sitting or standing, start with two dumbbells at shoulder length. Press the dumbbells up with your shoulders until elbows are straight. Lower the dumbbells back down to shoulder length."
+    },
+    {
+      "id": 3,
+      "name": "Dumbbell Shrug",
+      "muscle": "Shoulders",
+      "image": "https://static.strengthlevel.com/images/illustrations/dumbbell-shrug-2-1000x1000.jpg",
+      "description": "Start with 2 dumbbells resting by your sides. Pinch your shoulders up towards your head while keeping arms at sides. Lower shoulders back down to resting starting position."
+    },
+    {
+      "id": 4,
+      "name": "Tricep Pushdown",
+      "muscle": "Triceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/tricep-pushdown-2-1000x1000.jpg",
+      "description": "At a cable machine, stand facing the machine with the cable above your head. Use the handles to push down with your triceps until arms are straight. Return the handle back to the starting position and repeat."
+    },
+    {
+      "id": 5,
+      "name": "French Press",
+      "muscle": "Triceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/tricep-extension-2-1000x1000.jpg",
+      "description": "Lay on a flat bench or standing, using two dumbbells or a barbell, start with arms straight out in the air above your head. Lower the weights towards your head, bending arms only at the elbow. Repeat motion."
+    },
+    {
+      "id": 6,
+      "name": "Tricep Dips",
+      "muscle": "Triceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/dips-2-1000x1000.jpg",
+      "description": "Using a dipping platform, start with both arms extended fully in an upright position, holding yourself up with feet off the ground. Lower yourself down, bending at the elbows, and push yourself back up."
+    },
+    {
+      "id": 7,
+      "name": "Bicep Curl",
+      "muscle": "Biceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/barbell-curl-2-1000x1000.jpg",
+      "description": "Using dumbbells or a barbell, start in standing position with weights at hip length. Grip the weights with an underhand grip, and curl the weights upwards toward the chest. Lower back to starting position and repeat."
+    },
+    {
+      "id": 8,
+      "name": "Hammer Curl",
+      "muscle": "Biceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/hammer-curl-1000x1000.jpg",
+      "description": "Start with two dumbbells at hip length. Grip the dumbbells so the palms of the hand are facing towards the body. Raise one arm at a time upwards toward the shoulders, bending at the elbow. When one arm goes back to starting position, the opposite arm should be curling upwards."
+    },
+    {
+      "id": 9,
+      "name": "Machine Bicep Curl",
+      "muscle": "Biceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/machine-bicep-curl-1000x1000.jpg",
+      "description": "Sit on the machine facing the handles and rest elbows on the padding. Grip the handles with an underhand grip, and curl the handles towards the face. Repeat."
+    },
+    {
+      "id": 10,
+      "name": "Lat Pulldown",
+      "muscle": "Back",
+      "image": "https://static.strengthlevel.com/images/illustrations/lat-pulldown-2-1000x1000.jpg",
+      "description": "Grab the bar with both hands wider than shoulder-width. With arms extended, pull the bar down until the bar reaches just below the chin. Bring the bar back up to start and repeat."
+    },
+    {
+      "id": 11,
+      "name": "Back Extension",
+      "muscle": "Back",
+      "image": "https://static.strengthlevel.com/images/illustrations/machine-back-extension-1000x1000.jpg",
+      "description": "Sit on the machine with ankles behind the lower bar for support. Cross arms at chest and lean back to about a 45 degree angle. Slowly bring back to normal sitting position and repeat."
+    },
+    {
+      "id": 12,
+      "name": "Seated Cable Row",
+      "muscle": "Back",
+      "image": "https://static.strengthlevel.com/images/illustrations/seated-cable-row-1000x1000.jpg",
+      "description": "Sit on machine and put feet up on the footstools. Grab the handles and push back until knees are almost straight. Bring arms foward while keeping back straight, and pull arms back towards the chest."
+    },
+    {
+      "id": 13,
+      "name": "Ab Crunches",
+      "muscle": "Abdominals",
+      "image": "https://static.strengthlevel.com/images/illustrations/crunches-1000x1000.jpg",
+      "description": "Lie on the floor with knees facing the ceiling and feet flat on the floor. Put both hands behind the head, while keeping knees and feet in place, crunch forward bringing the head towards the knees. Lie back to starting position and repeat."
+    },
+    {
+      "id": 14,
+      "name": "Ab Rollout Wheel",
+      "muscle": "Abdominals",
+      "image": "https://static.strengthlevel.com/images/illustrations/ab-wheel-rollout-1000x1000.jpg",
+      "description": "Using a rollout wheel, start on knees with hands on the sides of the wheel. Slowly roll forward as far as possible while keeping back straight, and roll back to starting position."
+    },
+    {
+      "id": 15,
+      "name": "Hanging Leg Raise",
+      "muscle": "Abdominals",
+      "image": "https://static.strengthlevel.com/images/illustrations/hanging-leg-raise-1000x1000.jpg",
+      "description": "Hoist self up to a high bar and make sure feet are off the floor. With knees straight or bent, bring legs up to chest without rocking back and forth."
+    },
+    {
+      "id": 16,
+      "name": "Hip Thrust",
+      "muscle": "Glutes",
+      "image": "https://static.strengthlevel.com/images/illustrations/hip-thrust-2-1000x1000.jpg",
+      "description": "Using a barbell, wrap a cushion around the middle to protect the hips. Lie upper back on the side of a bench with the barbell directly over the hips. Keeping the chin tucked, push hips upwards through the glutes until hips and shoulders are parallel. Lower to start and repeat."
+    },
+    {
+      "id": 17,
+      "name": "Cable Kickback",
+      "muscle": "Glutes",
+      "image": "https://static.strengthlevel.com/images/illustrations/cable-kickback-1000x1000.jpg",
+      "description": "Using a cable machine, lower the cable to the lowest setting closest to the floor. Wrap an ankle strap around the ankle and attach to the cable hook. Holding on to the machine, kick foot straight back and slightly out while keeping back straight. Do not over-extend the leg. Return back to starting position."
+    },
+    {
+      "id": 18,
+      "name": "Reverse Lunge",
+      "muscle": "Glutes",
+      "image": "https://static.strengthlevel.com/images/illustrations/reverse-lunge-1000x1000.jpg",
+      "description": "Starting in standing position, lean upper body slightly forward, and bring one leg back while lowering into a lunge. Stop the lunge before the knee touches the ground. Lean into the leg in the front to bring back leg to standing position. Switch legs and repeat."
+    },
+    {
+      "id": 19,
+      "name": "Leg Extension",
+      "muscle": "Quadriceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/leg-extension-2-1000x1000.jpg",
+      "description": "Sitting on the leg extension machine, place feet under the footrest. Hold on to the handles on the side of the seat, and push the legs forward until both legs are straight."
+    },
+    {
+      "id": 20,
+      "name": "Leg Press",
+      "muscle": "Quadriceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/sled-leg-press-2-1000x1000.jpg",
+      "description": "Sit on the machine and place feet about shoulder or hip length apart. Push the legs forward and release the handle, and lower the sled until the knees are at a 90 degree angle. Push the sled back up while making sure knees are slightly bent at the top of the rep, and repeat. "
+    },
+    {
+      "id": 21,
+      "name": "Squat",
+      "muscle": "Quadriceps",
+      "image": "https://static.strengthlevel.com/images/illustrations/squat-2-1000x1000.jpg",
+      "description": "You can use a barbell or dumbbells for this exercise. With weights on shoulders or in hands, lower yourself until you are sitting at a 90 degree angle. Keep  back straight and look forward. Raise yourself back up to standing and repeat."
+    },
+    {
+      "id": 22,
+      "name": "Seated Leg Curl",
+      "muscle": "Hamstrings",
+      "image": "https://static.strengthlevel.com/images/illustrations/seated-leg-curl-2-1000x1000.jpg",
+      "description": "Sit on machine and lay the backs on the ankles on the footrest. Grip the handles, and pull both of the legs down towards the machine until the legs are at a right angle. Return legs slowly back to start and repeat."
+    },
+    {
+      "id": 23,
+      "name": "Romanian Deadlift",
+      "muscle": "Hamstrings",
+      "image": "https://static.strengthlevel.com/images/illustrations/dumbbell-romanian-deadlift-1000x1000.jpg",
+      "description": "Using dumbbells or a barbell, start at a standing position with weights at the hips. Keeping the back and head straight, slowly lower the hips backwards while keeping knees slightly bent. Do not over extend. Once the hips cannot lean back any farther, bring the hips forward to standing position. Lean back into a wall to keep from over extending. "
+    },
+    {
+      "id": 24,
+      "name": "Glute Ham Raise",
+      "muscle": "Hamstrings",
+      "image": "https://static.strengthlevel.com/images/illustrations/glute-ham-raise-1000x1000.jpg",
+      "description": "Place feet in between footrests and knees bent. Cross arms at the chest and slowly lean forward. Use hamstrings to rasie back up to starting position."
+    }
+  ]
 }
