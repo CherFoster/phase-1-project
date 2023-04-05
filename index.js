@@ -43,6 +43,7 @@ function renderCards() {
       workoutCard.append(h4, img, btn)
       cardCollection.append(workoutCard)
     
+
     //   Event listener that creates a shadow when mouse hovers over each card
       workoutCard.addEventListener("mouseover", () => workoutCard.setAttribute("style", "box-shadow: 30px 30px 10px #545E63"));
       workoutCard.addEventListener("mouseout", () => workoutCard.setAttribute("style", "box-shadow: 0px 0px"));
@@ -60,18 +61,34 @@ function renderCards() {
             }
         }
     })
+    workoutCard.addEventListener('click', (event) => {
+        event.preventDefault();
+        document.querySelectorAll('.card').forEach(event => event.remove())
+
+        fetch(`http://localhost:3000/workouts/${event.target.id}`)
+        .then(resp => resp.json())
+        .then(createCard(workout))
+
+        const p = document.createElement('p')
+
+        p.innerText = workout.description
+        cardCollection.append(p)
+      })
     
 };
 
-// Clears all of the cards once a search is submitted
-submit.addEventListener('click', () => {
-    console.log(submit)
-})
 
+const optionValue = document.querySelector('option')
+const selectedOption = optionValue.value
+
+// Clears all of the cards once a search is submitted and searches for selected muscle
 form.addEventListener('submit', (event) => {
     event.preventDefault()
+
     document.querySelectorAll('.card').forEach(event => event.remove())
 
+
+    
   });
 
   
@@ -97,9 +114,7 @@ function likesButton(){
     footer.appendChild(likesBtn)
 
     likesBtn.addEventListener('click', (event) => {
-        // event.preventDefault();
-        // if the heart is activated, save card
-        // console.log(event)
+        event.preventDefault();
   
     })
 }
