@@ -61,6 +61,8 @@ function renderCards() {
             }
         }
     })
+
+    // Event listener for when you click on a card, adds description 
     h4.addEventListener('click', (event) => {
         event.preventDefault();
         document.querySelectorAll('.card').forEach(event => event.remove())
@@ -70,10 +72,8 @@ function renderCards() {
         .then(createCard(workout))
 
         const p = document.createElement('p')
-
         p.innerText = workout.description
         cardCollection.append(p)
-        
       })
     
 };
@@ -85,15 +85,12 @@ const selectedOption = optionValue.value
 // Clears all of the cards once a search is submitted and searches for selected muscle
 form.addEventListener('submit', (event) => {
     event.preventDefault()
-
     document.querySelectorAll('.card').forEach(event => event.remove())
-
-
-    
+   
   });
 
   
-// Creates reset button
+// Creates View All reset button
 function resetButton(){
 const resetBtn = document.createElement('button')
 resetBtn.innerText = 'View All'
@@ -103,11 +100,12 @@ resetBtn.addEventListener('click', (event) => {
     event.preventDefault();
     renderCards();
     document.querySelectorAll('.card').forEach(event => event.remove())
+    document.querySelectorAll('p').forEach(event => event.remove())
   })
 };
 resetButton();
 
-// Creates a Liked button
+// Creates a Liked button and shows what workouts were liked
 function likesButton(){
     const likesBtn = document.createElement('button')
     likesBtn.classList.add('liked-workouts')
