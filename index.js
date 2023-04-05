@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Grabs HTML elements
 const form = document.querySelector('form')
-const searchBar = document.querySelector('#searchbar')
+const searchBar = document.querySelector('#searchBar')
 let cardCollection = document.querySelector('#database')
 const footer = document.querySelector('footer')
 const submit = document.querySelector('.submit')
@@ -20,6 +20,7 @@ function renderCards() {
      };
 
     renderCards();
+
 
     // Creates cards
     function createCard(workout){
@@ -79,15 +80,27 @@ function renderCards() {
 };
 
 
-const option = document.querySelector('option')
-const selectedOption = option.value
+
 
 // Clears all of the cards once a search is submitted and searches for selected muscle
 form.addEventListener('submit', (event) => {
     event.preventDefault()
     document.querySelectorAll('.card').forEach(event => event.remove())
-   
-  });
+
+    const selecetedMuscle = searchBar.value
+
+    fetch('http://localhost:3000/workouts')
+    .then(resp => resp.json())
+    .then(workouts => {
+      workouts.forEach(workout => {
+        if(selecetedMuscle === workout.muscle){
+            createCard(workout)
+        }
+    }) 
+  })
+});
+
+
 
   
 // Creates View All reset button
