@@ -79,8 +79,8 @@ function renderCards() {
 };
 
 
-const optionValue = document.querySelector('option')
-const selectedOption = optionValue.value
+const option = document.querySelector('option')
+const selectedOption = option.value
 
 // Clears all of the cards once a search is submitted and searches for selected muscle
 form.addEventListener('submit', (event) => {
