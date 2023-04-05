@@ -61,7 +61,7 @@ function renderCards() {
             }
         }
     })
-    workoutCard.addEventListener('click', (event) => {
+    h4.addEventListener('click', (event) => {
         event.preventDefault();
         document.querySelectorAll('.card').forEach(event => event.remove())
 
@@ -73,6 +73,7 @@ function renderCards() {
 
         p.innerText = workout.description
         cardCollection.append(p)
+        
       })
     
 };
