@@ -9,8 +9,6 @@ const submit = document.querySelector('.submit')
 const EMPTY_HEART = '♡';
 const FULL_HEART = '♥';
 
-    
-
 // Renders each card to page
 function renderCards() {
      fetch('http://localhost:3000/workouts')
@@ -21,14 +19,13 @@ function renderCards() {
 
     renderCards();
 
-
     // Creates cards
     function createCard(workout){
        const h4 = document.createElement('h4')
        const img = document.createElement('img');
        const btn = document.createElement('button')
 
-       h4.innerText = workout.name 
+       h4.innerText = workout.name
 
        img.setAttribute('src', workout.image)
        img.classList.add('workout-img')
@@ -43,6 +40,7 @@ function renderCards() {
       workoutCard.classList.add('card')
       workoutCard.append(h4, img, btn)
       cardCollection.append(workoutCard)
+      
     
 
     //   Event listener that creates a shadow when mouse hovers over each card
@@ -76,31 +74,19 @@ function renderCards() {
         p.innerText = workout.description
         cardCollection.append(p)
       })
-    
 };
 
-
-
-
+let cardData = renderCards()
+const selecetedMuscle = searchBar.value
 // Clears all of the cards once a search is submitted and searches for selected muscle
 form.addEventListener('submit', (event) => {
     event.preventDefault()
     document.querySelectorAll('.card').forEach(event => event.remove())
-
-    const selecetedMuscle = searchBar.value
-
-    fetch('http://localhost:3000/workouts')
-    .then(resp => resp.json())
-    .then(workouts => {
-      workouts.forEach(workout => {
-        if(selecetedMuscle === workout.muscle){
-            createCard(workout)
-        }
-    }) 
-  })
-});
-
-
+ 
+})
+// Store data in a global variable
+// Filter over workout array that returns workouts that match user input
+// Use functions already written to put cards back on the page
 
   
 // Creates View All reset button
