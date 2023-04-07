@@ -4,7 +4,7 @@ Beginner's Workout App created by Cherise Foster for Flatiron School's Phase 1 P
 <h2>Description:</h2>
 If you are new to the gym, take away some of the uneasiness of not knowing what workouts to do with the Beginner's Workout App!
 
-You can search for a specific muscle group to work, or scroll through the database. You can see the description of how to perform the workout by clicking on the name of the workout on the card.
+You can search for a specific muscle group to work, or scroll through the database. You can see the description of how to perform the workout by clicking on the name of the workout on the card accompanied with a visual of the movement.
 
 <h2>Installation:</h2>
 The Beginner's Workout App connects to a full fake REST API using a db.json file. To install the server, go to your terminal and type in:
