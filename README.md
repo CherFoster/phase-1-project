@@ -10,7 +10,9 @@ You can search for a specific muscle group to work, or scroll through the databa
 The Beginner's Workout App connects to a full fake REST API using a db.json file. To install the server, go to your terminal and type in:
 <code>npm install -g json-server</code>.
 To start the JSON server, type in:
+<br>
 <code>json-server --watch db.json</code>.
+<br>
 You can view the db.json data by opening 
 <code>http://localhost:3000/workouts</code> 
 in your browser, which is located under "Resources" in the terminal.
