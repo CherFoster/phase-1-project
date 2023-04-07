@@ -15,7 +15,7 @@ You can view the db.json data by opening
 <code>http://localhost:3000/workouts</code> 
 in your browser, which is located under "Resources" in the terminal.
 
-<h2>Using the search bar:</h2>
+<h2>Visuals:</h2>
 You can filter through different muscles to find workouts that match:
 
 ![Recording 2023-04-07 114930 gif](https://user-images.githubusercontent.com/123701615/230654972-ce929546-b866-4395-b431-fc8f2ff64a6b.gif)
