@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Grabs HTML elements
 const searchBar = document.querySelector('#searchBar')
 const submit = document.querySelector('.submit')
-const EMPTY_HEART = '♡';
-const FULL_HEART = '♥';
 let workouts = []
 
 // Renders each card to page
