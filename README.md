@@ -23,3 +23,17 @@ You can filter through different muscles to find workouts that match:
 Or just search through the database and click on a workout to take you to the description:
 ![Recording 2023-04-07 115724 (1)](https://user-images.githubusercontent.com/123701615/230655737-e3ccc711-b21b-4822-bd9e-3d77d537b4d5.gif)
 
+<h2>Contributing</h2>
+Pull requests are welcome. No major changes are allowed.
+
+Please reach out to support for questions.
+
+<h2>License</h2
+Licensing is not currently offered.
+
+<h2>References</h2>
+Please refer to the sources.txt file for links to the sources used.
+
+<h2>Support</h2>
+For questions, please reach out to cherise.foster@gmail.com.
+
