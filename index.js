@@ -20,21 +20,15 @@ function renderCards() {
     data.forEach(workout => createCard(workout))})
   };
 
-
 // Creates cards
 function createCard(workout){
   const h4 = document.createElement('h4')
   const img = document.createElement('img');
-  const btn = document.createElement('button')
   
   h4.innerText = workout.name
   img.setAttribute('src', workout.image)
   img.classList.add('workout-img')
   
-  btn.setAttribute('id', `${workout.id}`)
-  btn.classList.add('save-btn')
-  btn.innerText = "♡";
-    
 // Append elements to card
   const workoutCard = document.createElement('div')
   let cardCollection = document.querySelector('#database')
@@ -42,27 +36,12 @@ function createCard(workout){
   cardCollection.appendChild(workoutCard)
   workoutCard.appendChild(h4)
   workoutCard.appendChild(img)
-  workoutCard.appendChild(btn)
 
 //Event listener that creates a shadow when mouse hovers over each card
   workoutCard.addEventListener("mouseover", () => workoutCard.setAttribute("style", "box-shadow: 30px 30px 10px #545E63"));
   workoutCard.addEventListener("mouseout", () => workoutCard.setAttribute("style", "box-shadow: 0px 0px"));
-    
-// Fills in heart emoji when clicked
-  btn.addEventListener('click', (event) => {
-    if (event.target.classList[0] === 'save-btn') {
-      const activated = event.target.classList.contains('activated-heart');
-      if(activated) {
-        event.target.classList.remove('activated-heart')
-        event.target.innerText = EMPTY_HEART
-      }else {
-        event.target.classList.add("activated-heart");
-        event.target.innerHTML = FULL_HEART;
-      }
-   }
- })
 
-// Event listener for when you click on a card, adds description 
+// Event listener for when you click on a card, adds workout description 
 h4.addEventListener('click', (event) => {
   event.preventDefault();
   document.querySelectorAll('.card').forEach(event => event.remove())
@@ -103,19 +82,3 @@ function resetButton(){
     document.querySelectorAll('p').forEach(event => event.remove())
   })
 };
-
-
-// Creates a Liked button and shows what workouts were liked
-// function likesButton(){
-//   const footer = document.querySelector('footer')
-//   const likesBtn = document.createElement('button')
-//   likesBtn.classList.add('liked-workouts')
-//   likesBtn.innerText = "Liked"
-//   footer.appendChild(likesBtn)
-
-//   likesBtn.addEventListener('click', (event) => {
-//     event.preventDefault();
-    
-  
-//     })
-// }
