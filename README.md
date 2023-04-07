@@ -6,7 +6,7 @@ If you are new to the gym, take away some of the uneasiness of not knowing what 
 
 You can search for a specific muscle group to work, or scroll through the database. You can see the description of how to perform the workout by clicking on the name of the workout on the card.
 
-<h2>Getting Started:</h2>
+<h2>Installation:</h2>
 The Beginner's Workout App connects to a full fake REST API using a db.json file. To install the server, go to your terminal and type in:
 <code>npm install -g json-server</code>.
 To start the JSON server, type in:
