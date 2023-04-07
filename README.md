@@ -19,3 +19,7 @@ in your browser, which is located under "Resources" in the terminal.
 You can filter through different muscles to find workouts that match:
 
 ![Recording 2023-04-07 114930 gif](https://user-images.githubusercontent.com/123701615/230654972-ce929546-b866-4395-b431-fc8f2ff64a6b.gif)
+
+Or just search through the database and click on a workout to take you to the description:
+![Recording 2023-04-07 115724 (1)](https://user-images.githubusercontent.com/123701615/230655737-e3ccc711-b21b-4822-bd9e-3d77d537b4d5.gif)
+
