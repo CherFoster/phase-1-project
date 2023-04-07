@@ -17,6 +17,8 @@ The Beginner's Workout App connects to a full fake REST API using a db.json file
 <br>
 <code>http://localhost:3000/workouts</code> 
 in your browser, which is located under "Resources" in the terminal.
+<br>
+
 
 <h2>Visuals:</h2>
 You can filter through different muscles to find workouts that match:
