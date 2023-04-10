@@ -5,31 +5,27 @@ body {
     font-size: larger;
     box-shadow: inset 0 0 100px gray;
   }
-
   
-  #opening {
+#opening {
    color: #082F6E;   
   }
-  
-
-  h4 {
+ 
+h4 {
     color: black;
     font-size: 20px;
     text-align: center;  
-
-   }
+  }
    
-   h5 {
+h5 {
     font-size: 20px;
     text-align: center; 
-   }
+  }
 
-  
-  button {
+button {
     background-color:white;
   }
   
-  .card {
+.card {
     text-align: left;
     background-color:#9FB3BD;
     padding: 20px;
@@ -39,9 +35,8 @@ body {
     margin: 30px;
     border-radius:50px;
   }
-  
-  
-  .workout-img {
+
+.workout-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,14 +45,14 @@ body {
     width: 150px;
   }
   
-  .save-btn {
+.save-btn {
     height: 30px;
     width: 50px;
   }
 
- h4:hover {
+h4:hover {
     cursor:pointer;
-}
+  }
 button:hover {
     cursor:pointer;
-}
+  }

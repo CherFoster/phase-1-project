@@ -16,7 +16,7 @@ function renderCards() {
    .then(data => {
     workouts = data
     data.forEach(workout => createCard(workout))})
-  };
+  }
 
 // Creates cards
 function createCard(workout){
@@ -24,7 +24,7 @@ function createCard(workout){
   const img = document.createElement('img');
   
   h4.innerText = workout.name
-  img.setAttribute('src', workout.image)
+  img.src = workout.image
   img.classList.add('workout-img')
   
 // Append elements to card
