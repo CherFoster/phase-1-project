@@ -44,3 +44,6 @@ Please refer to the sources.txt file for links to the sources used.
 <h2>Support</h2>
 For questions, please reach out to cherise.foster@gmail.com.
 
+<h2>Sources</h2>
+All sources used are linked in the sources.txt file.
+
