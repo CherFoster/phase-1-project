@@ -35,7 +35,7 @@ function createCard(workout){
   workoutCard.appendChild(img)
 
 //Event listener that creates a shadow when mouse hovers over each card
-  workoutCard.addEventListener("mouseover", () => workoutCard.setAttribute("style", "box-shadow: 30px 30px 10px #545E63"));
+  workoutCard.addEventListener("mouseover", () => workoutCard.setAttribute("style", "box-shadow: 10px 10px 5px #0000FF"));
   workoutCard.addEventListener("mouseout", () => workoutCard.setAttribute("style", "box-shadow: 0px 0px"));
 
 // Event listener for when you click on a card, adds workout description 

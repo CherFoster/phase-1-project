@@ -32,20 +32,6 @@ body {
   letter-spacing: 5px;
   padding-left: 10px;
   }
-/* h1 {
-  position: relative;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-size: 2.5em;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 3s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
-} */
 
 @keyframes animate {
   0% {
@@ -55,9 +41,67 @@ body {
     background-position: 500%;
   }
 }
+p {
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding-left: 10px;
+}
 
+.box select {
+  background-color: #0000ff5b;
+  color: white;
+  padding: 3px;
+  width: 200px;
+  border: none;
+  font-size: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  color: #FFF;
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
 
- 
+/* .box::before {
+  font-family: 'lato',sans-serif;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+} */
+
+/* .box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+} */
+
+.box select option {
+  padding: 30px;
+  color: black;
+}
+
+label {
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 5px;
+  padding-left: 10px;
+
+}
 h4 {
     color: rgb(146, 183, 233);
     font-size: 20px;
@@ -73,17 +117,6 @@ button {
     background-color:white;
   }
   
-/* .card {
-    text-align: left;
-    background-color:#9FB3BD;
-    padding: 20px;
-    width: 10%;
-    height: 15%;
-    display: inline-block;
-    margin: 30px;
-    border-radius:50px;
-  } */
-
   .container {
     padding: 40px;
     display: flex;
@@ -106,8 +139,8 @@ button {
     font-size: 1.5em;  */
     position: relative;
     flex: 0 0 240px;
-    width: 240px;
-    height: 320px;
+    /* width: 240px; */
+    height: 300px;
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
   }
