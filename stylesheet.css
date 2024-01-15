@@ -20,10 +20,43 @@ body {
   box-sizing: border-box;
 }
   
-#opening, h1 {
-   color: #f3f4f5;
-   text-align: center;
+#opening {
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding-left: 10px;
   }
+/* h1 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+} */
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
  
 h4 {
     color: rgb(146, 183, 233);
@@ -152,4 +185,66 @@ h4:hover {
   }
 button:hover {
     cursor:pointer;
+  }
+
+
+  header {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 6.667vw;
+    line-height: .25vw;
+    font-feature-settings: "ss01" 1, "ss03" 1, "kern" 1, "dlig" 1;
+  }
+  .neon-text {
+    animation: flicker 6s linear infinite;
+  }
+  @keyframes flicker {
+    0%, 3.3% {
+      opacity: 25%;
+      color: transparent;
+      text-shadow:
+        0 0 0.3vw #0000FF,
+        0 0 0.521vw #0000FF;
+    } 
+    3.67%, 60%, 93.3% {
+      color: white;
+      text-shadow:
+        0 0 0.3vw #fff,
+        0 0 0.521vw #fff,
+        0 0 1.094vw #fff,
+        0 0 2.188vw #0000FF,
+        0 0 4.271vw #0000FF,
+        0 0 4.792vw #0000FF,
+        0 0 5.313vw #0000FF,
+        0 0 7.865vw #0000FF;
+    } 
+    10%, 36.7%, 37.3%, 38%, 40.67%, 41.33%, 80%, 93.5%, 98%, 100% {
+      opacity: 75%;
+      color: white;
+      text-shadow:
+        0 0 1vw #0000FF,
+        0 0 2vw #0000FF,
+        0 0 2.5vw #0000FF,
+        0 0 3vw #0000FF,
+        0 0 4vw #0000FF;
+    } 
+  }
+
+  b {
+    font-weight: 700;
+  }
+
+  i {
+    font-style: normal;
+    font-weight: 100;
   }
