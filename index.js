@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-  renderCards()
-  resetButton()
-  addEventListeners()
+  renderCards();
+  resetButton();
+  addEventListeners();
 })
 
 // Grabs HTML elements
-const searchBar = document.querySelector('#searchBar')
-let workouts = []
+const searchBar = document.querySelector('#searchBar');
+let workouts = [];
 
 // Renders each card to page
 function renderCards() {
@@ -15,25 +15,26 @@ function renderCards() {
    .then(data => {
     workouts = data
     data.forEach(workout => createCard(workout))})
-  }
+  };
 
 // Creates cards
 function createCard(workout){
-  const h4 = document.createElement('h4')
+  const h4 = document.createElement('h4');
   const img = document.createElement('img');
+  const p = document.createElement('p');
   
-  h4.innerText = workout.name
-  img.src = workout.image
-  img.classList.add('workout-img')
+  h4.innerText = workout.name;
+  img.src = workout.image;
+  img.classList.add('workout-img');
   
 // Append elements to card
-  const workoutCard = document.createElement('div')
-  let cardCollection = document.querySelector('#database')
-  workoutCard.classList.add('card')
-  cardCollection.appendChild(workoutCard)
-  workoutCard.appendChild(h4)
-  workoutCard.appendChild(img)
-
+  const workoutCard = document.createElement('div');
+  let cardCollection = document.querySelector('#database');
+  workoutCard.classList.add('card');
+  workoutCard.appendChild(h4);
+  workoutCard.appendChild(img);
+  cardCollection.appendChild(workoutCard);
+  
 //Event listener that creates a shadow when mouse hovers over each card
   workoutCard.addEventListener("mouseover", () => workoutCard.setAttribute("style", "box-shadow: 10px 10px 5px #0000FF"));
   workoutCard.addEventListener("mouseout", () => workoutCard.setAttribute("style", "box-shadow: 0px 0px"));

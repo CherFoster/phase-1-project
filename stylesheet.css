@@ -42,6 +42,7 @@ body {
   }
 }
 p {
+  width: 60%; 
   top: 50%;
   left: 0;
   right: 0;
@@ -68,23 +69,28 @@ p {
   letter-spacing: 2px;
 }
 
-/* .box::before {
-  font-family: 'lato',sans-serif;
-  width: 20%;
-  height: 100%;
-  text-align: center;
-  font-size: 28px;
-  line-height: 45px;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.1);
-  pointer-events: none;
-} */
+.button {
+  width: 70px;
+  height: 20px;
+  font-family: 'lato',sans-serif;;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
 
-/* .box:hover::before {
-  color: rgba(255, 255, 255, 0.6);
-  background-color: rgba(255, 255, 255, 0.2);
-} */
-
+.button:hover {
+  box-shadow: 0px 8px 15px rgb(88 199 250 / 100%);
+  color: #fff;
+  transform: translateY(-3px);
+}
 .box select option {
   padding: 30px;
   color: black;
@@ -127,19 +133,8 @@ button {
     background: #191c29;
     margin-top: 30px;
     margin: 10px;
-    /* width: var(--card-width);
-    height: var(--card-height);
-    padding: 3px;
-    position: relative;
-    /* border-radius: 6px; */
-    /* justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-size: 1.5em;  */
     position: relative;
     flex: 0 0 240px;
-    /* width: 240px; */
     height: 300px;
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
